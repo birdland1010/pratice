@@ -7,6 +7,12 @@ from sklearn.preprocessing import StandardScaler,MinMaxScaler
 
 
 
+#글꼴세팅
+import matplotlib.pyplot as plt
+plt.rcParams["font.family"]='Gulim'
+
+
+
 pd.get_dummies(fruit, columns = ['name'])
 
 
